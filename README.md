@@ -1,6 +1,6 @@
 # HElib Quickstart
 
-Minimum instructions for installing [HElib](https://github.com/homenc/HElib) and compiling the examples.  
+Minimal instructions for installing [HElib](https://github.com/homenc/HElib) and compiling the examples.  
 Adapted from [HElib/INSTALL.md](https://github.com/homenc/HElib/blob/master/INSTALL.md).
 
 ### Dependencies
