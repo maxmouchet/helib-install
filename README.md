@@ -1,7 +1,7 @@
 # HElib Quickstart
 
 Minimum instructions for installing [HElib](https://github.com/homenc/HElib) and compiling the examples.  
-Adapted from [HElib/INSTALL.md](https://github.com/homenc/HElib/blob/master/INSTALL.md)
+Adapted from [HElib/INSTALL.md](https://github.com/homenc/HElib/blob/master/INSTALL.md).
 
 ### Dependencies
 
@@ -36,4 +36,9 @@ cd examples/binaryArith_example/
 g++ -std=c++14 -I/usr/local/include/helib -L/usr/local/lib64 binaryArith_example.cpp \
   -lhelib -lntl -lpthread -o binaryArith_example
 ./binaryArith_example
+
+cd examples/BGV_general_example/
+g++ -std=c++14 -I/usr/local/include/helib -L/usr/local/lib64 BGV_general_example.cpp \
+  -lhelib -lntl -lpthread -o BGV_general_example
+./BGV_general_example
 ```
